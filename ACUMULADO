@@ -1,0 +1,12 @@
+def acumulado(lista):
+    nueva_lista=[]
+    suma=0
+    for i in lista:
+        suma+=i
+        nueva_lista.append(suma)           
+    print(nueva_lista)
+                      
+acumulado([1, 2, 3, 4])  
+acumulado([1, 5, 7]) 
+acumulado([1, 0, 1, 0, 1])
+acumulado([])
